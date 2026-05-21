@@ -1,8 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
-"""
-PGNN for RC Torsion — THEORY-ALIGNED
+PGNN for RC Torsion — Code
 
 Header styles supported:
   1) Index-form (preferred, EXACT theory units):
