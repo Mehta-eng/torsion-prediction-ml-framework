@@ -1,6 +1,5 @@
 # gnn_torsion.py
 # Streamlit GUI for Physics-Guided GNN — Torsional Strength (kN·m)
-# Paths tailored for your setup (auto-loads mix data.csv on Desktop if present)
 
 import os
 import io
@@ -28,7 +27,7 @@ from torch_geometric.nn import MLP
 # UI CONFIG
 # =========================
 st.set_page_config(page_title="Torsion GNN", layout="wide")
-st.title("🔩 Physics-Guided GNN — Torsional Strength (kN·m)")
+st.title("Physics-Guided GNN — Torsional Strength (kN·m)")
 
 # =========================
 # Feature schema
@@ -411,7 +410,7 @@ with st.sidebar:
 # =========================
 # Tabs
 # =========================
-tab_data, tab_train, tab_infer, tab_viz = st.tabs(["📥 Data", "🧠 Train / Load", "🔮 Inference", "📊 Visualize"])
+tab_data, tab_train, tab_infer, tab_viz = st.tabs([" Data", " Train / Load", " Inference", " Visualize"])
 
 # =========================
 # TAB: Data
